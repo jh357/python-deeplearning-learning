@@ -1,0 +1,20 @@
+파이썬
+from : 모듈이나 패키지에서 특정 요소를 가져오는 키워드
+import : 라이브러리 불러오기
+as : 모듈 이름변경
+numpy.loadtxt : 파일 읽기
+("./data/데이터명.csv")
+Sequential() : model.add()사용
+Model.add() : 함수 한 줄 추가로 필요한 내부의 층 만들기
+Dense() : 각 층의 입력과 출력을 촘촘하게 모두 연결
+model.compile() : model 설정 실행
+model.fit() : 몇번 오갈지, 몇 개의 데이터를 사용할 것인지 지정
+np.array([1, 2, 3, 4]) : 원소 배열
+np.mean(x) : 원소들의 평균을 구함
+def : 함수 만들때 사용하는 예약어
+len(리스트) : 리스트 안의 원소 개수
+range() : 0부터 괄호 안의 숫자 전까지 연속적인 숫자 객체 만들어 줌
+sum() : 합을 구함
+epoch : 입력 값에 대해 몇 번 반복했는지 나타냄
+activation : 활성화 함수를 정하는 옵션
+model.predict : 결과 예측
